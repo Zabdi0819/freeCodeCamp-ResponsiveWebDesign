@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Documentación Técnica: Introducción a Python</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Documentación Python</header>
+    <a class="nav-link" href="#Introducción">Introducción</a>
+    <a class="nav-link" href="#Sintaxis_básica">Sintaxis básica</a>
+    <a class="nav-link" href="#Tipos_de_datos">Tipos de datos</a>
+    <a class="nav-link" href="#Estructuras_de_control">Estructuras de control</a>
+    <a class="nav-link" href="#Funciones">Funciones</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introducción">
+      <header>Introducción</header>
+      <p>Python es un lenguaje de programación interpretado, de alto nivel y propósito general.</p>
+      <p>Fue creado por Guido van Rossum y lanzado en 1991.</p>
+      <p>Python enfatiza la legibilidad del código con su notación clara y concisa.</p>
+      <p>Se usa en desarrollo web, ciencia de datos, automatización, inteligencia artificial y más.</p>
+      <p>Es una excelente opción para principiantes y desarrolladores avanzados.</p>
+      <code>print("Hola, mundo")</code>
+      <p>Python tiene una gran comunidad de usuarios y una amplia gama de librerías.</p>
+      <p>Permite escribir menos líneas de código para lograr más.</p>
+      <code># Esto es un comentario en Python</code>
+      <ul>
+        <li>Fácil de aprender</li>
+        <li>Extensibilidad</li>
+        <li>Multiplataforma</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Sintaxis_básica">
+      <header>Sintaxis básica</header>
+      <p>Python no usa llaves sino indentación para definir bloques de código.</p>
+      <p>Las variables se declaran automáticamente al asignar un valor.</p>
+      <code>x = 10</code>
+      <code>nombre = "Juan"</code>
+      <p>Los comentarios se escriben con # al inicio de la línea.</p>
+      <code># Esto es un comentario</code>
+      <ul>
+        <li>No se necesitan punto y coma (;)</li>
+        <li>Indentación importante</li>
+        <li>Case-sensitive</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Tipos_de_datos">
+      <header>Tipos de datos</header>
+      <p>Python tiene varios tipos de datos incorporados como:</p>
+      <ul>
+        <li>int</li>
+        <li>float</li>
+        <li>str</li>
+        <li>bool</li>
+        <li>list, tuple, dict, set</li>
+      </ul>
+      <p>Ejemplos:</p>
+      <code>edad = 25</code>
+      <code>pi = 3.14</code>
+      <code>es_mayor = True</code>
+      <p>Las listas son mutables, las tuplas no.</p>
+    </section>
+
+    <section class="main-section" id="Estructuras_de_control">
+      <header>Estructuras de control</header>
+      <p>Python incluye estructuras como if, for y while.</p>
+      <p>Ejemplo de if:</p>
+      <code>if edad >= 18:\n    print("Es mayor de edad")</code>
+      <p>Ejemplo de for:</p>
+      <code>for i in range(5):\n    print(i)</code>
+      <p>Ejemplo de while:</p>
+      <code>while x < 10:\n    x += 1</code>
+      <ul>
+        <li>Condicionales</li>
+        <li>Bucles</li>
+        <li>Break y continue</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Funciones">
+      <header>Funciones</header>
+      <p>Las funciones se definen con la palabra clave `def`.</p>
+      <p>Pueden devolver valores con `return`.</p>
+      <code>def saludar():\n    print("Hola")</code>
+      <code>def sumar(a, b):\n    return a + b</code>
+      <p>Se pueden pasar parámetros con valores por defecto.</p>
+      <p>Ejemplo de llamada:</p>
+      <code>resultado = sumar(3, 5)</code>
+      <ul>
+        <li>Funciones anónimas con lambda</li>
+        <li>Funciones recursivas</li>
+        <li>Documentación con docstrings</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
